@@ -138,34 +138,43 @@
     <!-- Page Content -->
     <div class="container">
         <div class="row">
+            <div class="col-lg-12">
+                 <h1 class="page-header">Tienda -  Detalles de la máquina                   
+                </h1>
+            </div>
             <div class="col-md-3">
-                <p class="lead">Tienda - Equipos y Maquinas Industriales</p>
                 <div class="list-group">
-                                                <?php
-                                include '../procedimientosPhp/conexion.php';
-                                $queryTipo ="SELECT DISTINCT M_Tipo FROM maquinaria";
-                                $resultado = $mysqli -> query($queryTipo);
-                                while($f = $resultado->fetch_array(MYSQLI_ASSOC)){
-                            ?>      
-                                    <a href="../busquedaProductos.php?tipo=<?php echo $f['M_Tipo'] ?>" class="list-group-item"><?php echo $f['M_Tipo']?></a>
-                            <?php
-                            }
-                            echo "</div>"; //Fin del div del primer list group;
-                            echo "<hr>";
-                            echo "<div class=\"list-group\">";
-                            echo "<p class=\"lead\">Clasificacion de maquinas y herramientas</p>";//Inicio del otro list group;
-                            //Aqui meto la clasificacion
-                                $queryClasificacion ="SELECT DISTINCT M_Clasificacion FROM maquinaria";
-                                $resultados = $mysqli -> query($queryClasificacion);
-                                while($f = $resultados->fetch_array(MYSQLI_ASSOC)){
-                            ?>      
-                                    <a href="../busquedaProductos.php?clasificacion=<?php echo $f['M_Clasificacion'] ?>" class="list-group-item"><?php echo $f['M_Clasificacion']?></a>
-                                <hr>
-                            <?php
-                            }   
+                  <p class="lead">Máquinas de construcción</p>
+                    <a href="../busquedaProductos.php?clasificacion=Construccion&tipo=Equipo" class="list-group-item">Equipos</a>
+                    <a href="../busquedaProductos.php?clasificacion=Construccion&tipo=Accesorio" class="list-group-item">Accesorios</a>
+                    <a href="../busquedaProductos.php?clasificacion=Construccion&tipo=Respuesto" class="list-group-item">Repuestos</a>
+                </div>
 
-                                $mysqli->close();
-                            ?>
+                <hr>
+
+                <div class="list-group">
+                    <p class="lead">Máquinas de perforación</p>
+                    <a href="../busquedaProductos.php?clasificacion=Perforacion&tipo=Equipo" class="list-group-item">Equipos</a>
+                    <a href="../busquedaProductos.php?clasificacion=Perforacion&tipo=Accesorio" class="list-group-item">Accesorios</a>
+                    <a href="../busquedaProductos.php?clasificacion=Perforacion&tipo=Respuesto" class="list-group-item">Repuestos</a>    
+                </div>
+
+                <hr>
+
+                <div class="list-group">
+                    <p class="lead">Máquinas herramientas</p>
+                    <a href="../busquedaProductos.php?clasificacion=Herramientas&tipo=Equipo" class="list-group-item">Equipos</a>
+                    <a href="../busquedaProductos.php?clasificacion=Herramientas&tipo=Accesorio" class="list-group-item">Accesorios</a>
+                    <a href="../busquedaProductos.php?clasificacion=Herramientas&tipo=Respuesto" class="list-group-item">Repuestos</a>    
+                </div>
+
+                <hr>
+
+                <div class="list-group">
+                    <p class="lead">Herramientas varias</p>
+                    <a href="../busquedaProductos.php?clasificacion=Varias&tipo=Equipo" class="list-group-item">Equipos</a>
+                    <a href="../busquedaProductos.php?clasificacion=Varias&tipo=Accesorio" class="list-group-item">Accesorios</a>
+                    <a href="../busquedaProductos.php?clasificacion=Varias&tipo=Respuesto" class="list-group-item">Repuestos</a>    
                 </div>
             </div>
 
