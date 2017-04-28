@@ -139,32 +139,36 @@
             <div class="col-md-3">
                 <div class="list-group">
                   <p class="lead">Máquinas de construcción</p>
-                    <a href="busquedaProductos.php?clasificacion=Construccion&tipo=Equipos" class="list-group-item">Equipos</a>
-                    <a href="busquedaProductos.php?clasificacion=Construccion&tipo=Accesorios" class="list-group-item">Accesorios</a>
-                    <a href="busquedaProductos.php?clasificacion=Construccion&tipo=Respuestos" class="list-group-item">Repuestos</a>
+                    <a href="busquedaProductos.php?clasificacion=Construccion&tipo=Equipo" class="list-group-item">Equipos</a>
+                    <a href="busquedaProductos.php?clasificacion=Construccion&tipo=Accesorio" class="list-group-item">Accesorios</a>
+                    <a href="busquedaProductos.php?clasificacion=Construccion&tipo=Respuesto" class="list-group-item">Repuestos</a>
                 </div>
 
                 <hr>
 
                 <div class="list-group">
                     <p class="lead">Máquinas de perforación</p>
-                    <a href="busquedaProductos.php?clasificacion=Perforacion&tipo=Equipos" class="list-group-item">Equipos</a>
-                    <a href="busquedaProductos.php?clasificacion=Perforacion&tipo=Accesorios" class="list-group-item">Accesorios</a>
-                    <a href="busquedaProductos.php?clasificacion=Perforacion&tipo=Respuestos" class="list-group-item">Repuestos</a>    
+                    <a href="busquedaProductos.php?clasificacion=Perforacion&tipo=Equipo" class="list-group-item">Equipos</a>
+                    <a href="busquedaProductos.php?clasificacion=Perforacion&tipo=Accesorio" class="list-group-item">Accesorios</a>
+                    <a href="busquedaProductos.php?clasificacion=Perforacion&tipo=Respuesto" class="list-group-item">Repuestos</a>    
                 </div>
+
                 <hr>
+
                 <div class="list-group">
                     <p class="lead">Máquinas herramientas</p>
-                    <a href="busquedaProductos.php?clasificacion=Herramientas&tipo=Equipos" class="list-group-item">Equipos</a>
-                    <a href="busquedaProductos.php?clasificacion=Herramientas&tipo=Accesorios" class="list-group-item">Accesorios</a>
-                    <a href="busquedaProductos.php?clasificacion=Herramientas&tipo=Respuestos" class="list-group-item">Repuestos</a>    
+                    <a href="busquedaProductos.php?clasificacion=Herramientas&tipo=Equipo" class="list-group-item">Equipos</a>
+                    <a href="busquedaProductos.php?clasificacion=Herramientas&tipo=Accesorio" class="list-group-item">Accesorios</a>
+                    <a href="busquedaProductos.php?clasificacion=Herramientas&tipo=Respuesto" class="list-group-item">Repuestos</a>    
                 </div>
+
                 <hr>
+
                 <div class="list-group">
                     <p class="lead">Herramientas varias</p>
-                    <a href="busquedaProductos.php?clasificacion=Varias&tipo=Equipos" class="list-group-item">Equipos</a>
-                    <a href="busquedaProductos.php?clasificacion=Varias&tipo=Accesorios" class="list-group-item">Accesorios</a>
-                    <a href="busquedaProductos.php?clasificacion=Varias&tipo=Respuestos" class="list-group-item">Repuestos</a>    
+                    <a href="busquedaProductos.php?clasificacion=Varias&tipo=Equipo" class="list-group-item">Equipos</a>
+                    <a href="busquedaProductos.php?clasificacion=Varias&tipo=Accesorio" class="list-group-item">Accesorios</a>
+                    <a href="busquedaProductos.php?clasificacion=Varias&tipo=Respuesto" class="list-group-item">Repuestos</a>    
                 </div>
             </div>
 
